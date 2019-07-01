@@ -1,2 +1,2 @@
 # TrabalhoCard
-# Este projeto usa materialize, jquery e javascript
+Este projeto usa materialize, jquery e javascript
