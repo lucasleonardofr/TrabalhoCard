@@ -1,0 +1,156 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(29, 28, 28);
+  font-family: "Muli", sans-serif;
+}
+footer {
+  margin: 0;
+  height: 0%;
+}
+
+div.principal {
+  /*background-color: darkblue;*/
+  box-shadow: 0rem 0 2rem rgb(27, 39, 71);
+  background: #100e17;
+  width: 300px;
+  margin: auto;
+  border-radius: 30px;
+  height: 350px;
+  padding-top: 10px;
+}
+.animate {
+  -webkit-animation: flip 1s linear 0s 1 normal;
+  animation: flip 1s linear 0s 1 normal;
+}
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: translateY(180);
+    transform: rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+p {
+  color: #e0dfdc;
+  font-weight: bold;
+}
+h1 {
+  color: #e0dfdc;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100pt;
+}
+
+#p_inicial {
+  color: #e0dfdc;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 0px;
+  font-size: 25pt;
+  line-height: 50px;
+}
+
+#numero_atomico {
+  float: left;
+  margin-top: 0px;
+  font-size: 25pt;
+  line-height: 50px;
+}
+
+#massa_atomica {
+  float: right;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  font-size: 25pt;
+  line-height: 50px;
+}
+
+#simbolo_quimico {
+  text-align: center;
+  letter-spacing: 0px;
+  padding-top: 20px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  font-size: 80pt;
+  line-height: 50px;
+}
+#p1 {
+  margin: 0 auto;
+  margin-left: 10px;
+  padding: 0;
+  font-size: 20px;
+}
+
+#nome {
+  text-align: center;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  padding-bottom: 0%;
+  font-size: 25pt;
+  line-height: 50px;
+}
+
+#massa_atomica {
+  text-align: right;
+}
+
+input {
+  width: 70px;
+}
+
+#inpNatomico,
+#inpMatomica,
+#inpSimbolo,
+#inpNome,
+#btnNatomico,
+#btnMatomica,
+#btnSimbolo,
+#btnNome {
+  display: none;
+}
+.botoes {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#btn1,
+#btn2 {
+  border: none;
+  background: rgb(245, 211, 16);
+  color: white;
+  border: 2px solid rgb(245, 211, 16);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#btn1:hover,
+#btn2:hover {
+  background: rgb(245, 211, 16);
+  color: black;
+}
